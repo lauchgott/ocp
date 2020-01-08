@@ -14,6 +14,8 @@ public class CheckedCollectionDemo {
 public static void main(String[] args) {
 List<String> strings = new ArrayList<>();
 strings.add("abc");
+strings.add("def");
+strings.add("ghijkl");
 UCL.m(strings); // noch keine ClassCastException
 // String s = strings.get(1); // jetzt erst ClassCastException
 List<String> checkedStrings = Collections.checkedList(
